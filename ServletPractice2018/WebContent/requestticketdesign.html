@@ -1,0 +1,21 @@
+<html>
+<head>
+<body>
+	<form action="ProcessRequestTicketId">
+		Name: <input type="text" name="name" /> <br>
+		WS Number: <input type="text" name="wsNo" /> <br>
+		Issue Type: <select name="issueType"> 
+		     			  <option value="os">OS</option>
+						  <option value="browser">Browser</option>
+						  <option value="outlook">Outlook</option>
+						  <option value="system">System Issue</option>
+					</select> 
+		<br>
+		Description: <textarea rows="4" cols="50"> </textarea><br>
+		Primary Contact <input type="radio" name="primaryContact" value="mobile" checked> Mobile &nbsp;&nbsp;&nbsp;
+						<input type="radio" name="primaryContact" value="email"> Email<br>
+					<input type="submit" value="Submit" />
+	 </form>
+</body>
+</head>
+</html>
